@@ -436,21 +436,25 @@ require_once ('include/constant.php');
       </div>
       <div class="row">
         <div class="col-3">
-        <div class="card" >
-        <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
-  <div class="card-body">
-    <h2 class="card-title">GST Registration</h2>
-    
-    <h2 class="card-title">₹2500/ <span class="fs-6">EXCL GST.</small></span> </h2>
+          <div class="card">
+            <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
+            <div class="card-body">
+              <h2 class="card-title">GST Registration</h2>
 
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  
-    <a type="button" class="btn btn-primary rounded-5"> Primary  </a>
+              <h3 class="card-title">₹2500/ <span class="h6" style='color:darkgray'>EXCL GST.</small></span> </h3>
 
-  </div>
-</div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+
+              <a type="button" class="btn btn-primary rounded-5"> Primary </a>
+
+            </div>
+          </div>
         </div>
       </div>
+
+
+
       <div class="row">
         <div class="div col-md-6">
           <div class="abt_bxs">
@@ -547,6 +551,121 @@ require_once ('include/constant.php');
       </div>
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- choose out best plan  -->
+    <div>
+      <div class="container mt_cstm">
+        <div class="row">
+
+ 
+
+          <div class="abt_contnt">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 text-center mt-5 mb-3">
+                  <h1> Choose Our Best Plan
+                  </h1>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 mb-5">
+                  <div class="price_box ">
+                    <h4>Proprietorship Registration</h4>
+                    <h3 class="card-title">₹2500/ <span class="h6" style='color:darkgray'>EXCL GST.</small></span> </h3>
+                    <h6>T&C</h6>
+                    <hr>
+                    <ul>
+                      <li>Lorem</li>
+                      <li>Lorem</li>
+                      <li>Lorem</li>
+                      <li>Lorem</li>
+                      <li>Lorem</li>
+                    </ul>
+                    <hr>
+                    <div class="back_btn">
+                      <a href="#"> <button>Read More</button></a>
+                    </div>
+                  </div>
+                </div>
+
+                 <!--   -->
+                 <div class="col-md-4 mb-5">
+                  <div class="price_box ">
+                    <h4>Proprietorship Registration</h4>
+                    <h3 class="card-title">₹2500/ <span class="h6" style='color:darkgray'>EXCL GST.</small></span> </h3>
+                    <h6>T&C</h6>
+                    <hr>
+                    <ul>
+                      <li>Lorem</li>
+                      <li>Lorem</li>
+                      <li>Lorem</li>
+                      <li>Lorem</li>
+                      <li>Lorem</li>
+                    </ul>
+                    <hr>
+                    <div class="back_btn">
+                      <a href="#"> <button>Read More</button></a>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="col-md-4 mb-5">
+                  <div class="price_box ">
+                    <h4>Proprietorship Registration</h4>
+                    <h3 class="card-title">₹2500/ <span class="h6" style='color:darkgray'>EXCL GST.</small></span> </h3>
+                    <h6>T&C</h6>
+                    <hr>
+                    <ul>
+                      <li>Lorem</li>
+                      <li>Lorem</li>
+                      <li>Lorem</li>
+                      <li>Lorem</li>
+                      <li>Lorem</li>
+                    </ul>
+                    <hr>
+                    <div class="back_btn">
+                      <a href="#"> <button>Read More</button></a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
 
 
 
