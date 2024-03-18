@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'heding-font';
+    src: url('../fonts/Certificate\ Regular.ttf');
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.certificate_details {
+    padding: 20px;
+}
+
+.certificatee {
+    width: 645px;
+    height: 842px;
+    margin: auto;
+    background-image: url('../Images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #000;
+}
+
+.certificate {
+    width: 695px;
+    height: 842px;
+    margin: auto;
+    background-image: url('../Images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #000;
+}
+
+.side_img {
+    width: 10%;
+}
+
+.right_content {
+    width: 90%;
+    text-align: center;
+    float: right;
+}
+
+.right_content h1 {
+    width: 100%;
+    font-family: 'heding-font';
+    padding-top: 10px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 8px;
+}
+.top_logo {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-top: 42px;
+    margin-left: 210px;
+}
+
+.top_logo img {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.right_content span {
+    font-size: 16px;
+}
+
+#businessname {
+    font-size: 50px;
+}
+
+#adres {
+    font-size:20px !important;
+}
+
+.btm_content {
+    width: 90%;
+    margin: auto;
+}
+
+.certificate_boxes {
+    width: 100%;
+    display: block;
+    border: 1px solid #111;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 400px;
+}
+.indusinfo
+{
+    width: 90%;
+    margin: auto;
+}
+#isot
+{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.datesection
+{
+    width: 90%;
+    margin: auto;
+}

@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow:/
+
+Sitemap: https://legaltax.in/sitemap.xml
