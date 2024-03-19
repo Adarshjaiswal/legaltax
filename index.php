@@ -24,7 +24,7 @@ require_once ('include/constant.php');
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+
 
 
   <script type="application/ld+json">
@@ -421,134 +421,158 @@ require_once ('include/constant.php');
     <div class="container mt_cstm">
       <div class="row">
         <div class="div col-md-6">
-          <div class="abt_contnt">
-            <div class="headingst">
-
-              <h1> We Provide Best
-                <span style='color:#FFC700'>
-                  Quality
-                </span> Services
+          <div class="abt_contn">
+            <div class="headings ">
+              <h1 class=''> We Provide
+                <br>
+                Best<span style='color:#FFC700'> Quality </span> Services
               </h1>
             </div>
-
+            <hr class='hrr'>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row d-flex">
         <div class="col-3">
           <div class="card">
             <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
             <div class="card-body">
-              <h2 class="card-title">GST Registration</h2>
+              <h4 class="card-title ">GST Registration</h4>
+              <h3 class="card-title headingColor my-3">₹2500/ <span class="h6" style='color:darkgray'>EXCL
+                  GST.</small></span> </h3>
+              <p class="card-text font-weight-light ">Apply for New GST by online Registration with Kanakkupillai!
+                Without Visiting the Govt. office, get your GST Registered in India in just seven days.</p>
 
-              <h3 class="card-title">₹2500/ <span class="h6" style='color:darkgray'>EXCL GST.</small></span> </h3>
-
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-
-              <a type="button" class="btn btn-primary rounded-5"> Primary </a>
-
+              <div class="back_btn">
+                <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
+              </div>
             </div>
           </div>
         </div>
+        <!-- card  -->
+        <div class="col-3">
+          <div class="card">
+            <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
+            <div class="card-body">
+              <h4 class="card-title ">Pvt Ltd Company</h4>
+              <h3 class="card-title headingColor my-3">₹9663/ <span class="h6" style='color:darkgray'>EXCL
+                  GST.</small></span> </h3>
+              <p class="card-text font-weight-light ">Register your Company with Kanakkupillai in 7 days at the lowest
+                price + DIN & DSC for 2 Directors + MOA & AOA + ROC Fees, PAN & TAN.</p>
+              <div class="back_btn">
+                <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card  -->
+        <div class="col-3">
+          <div class="card">
+            <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
+            <div class="card-body">
+              <h4 class="card-title ">One Person Company</h4>
+              <h3 class="card-title headingColor my-3">₹9663/ <span class="h6" style='color:darkgray'>EXCL
+                  GST.</small></span> </h3>
+              <p class="card-text font-weight-light ">OPC is a business having one owner. Before the Companies Act 2013,
+                a company could only be founded with a minimum of two directors and members.</p>
+              <div class="back_btn">
+                <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card  -->
+
+        <div class="col-3 ">
+          <div class="card">
+            <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
+            <div class="card-body">
+              <h4 class="card-title ">LLP Registration</h4>
+              <h3 class="card-title headingColor my-3">₹9663/ <span class="h6" style='color:darkgray'>EXCL
+                  GST.</small></span> </h3>
+              <p class="card-text font-weight-light ">Get started for LLP registration for your partnership business
+                through Kanakkupillai! Limit your liability and face lesser compliance issues than a PLC registration.
+              </p>
+              <div class="back_btn">
+                <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card  -->
+
+        <div class="col-3 mt-4">
+          <div class="card">
+            <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
+            <div class="card-body">
+              <h4 class="card-title ">FSSAI Registration</h4>
+              <h3 class="card-title headingColor my-3">₹9663/ <span class="h6" style='color:darkgray'>EXCL
+                  GST.</small></span> </h3>
+              <p class="card-text font-weight-light ">Get FSSAI Registration Now! All manufacturers, traders. and
+                restaurants operating any food. business that may include manufacturing or processing are given FSSAI
+                Registration.</p>
+              <div class="back_btn">
+                <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card  -->
+        <div class="col-3 mt-4">
+          <div class="card">
+            <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
+            <div class="card-body">
+              <h4 class="card-title ">Trademark</h4>
+              <h3 class="card-title headingColor my-3">₹1271/ <span class="h6" style='color:darkgray'>EXCL
+                  GST.</small></span> </h3>
+              <p class="card-text font-weight-light ">Get trademark for your brand name or logo with unique identity and
+                secure legal protection within a week! Get trademark registration for any sign you use to identify your
+                business.</p>
+              <div class="back_btn">
+                <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card  -->
+        <div class="col-3 mt-4">
+          <div class="card">
+            <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
+            <div class="card-body">
+              <h4 class="card-title ">Import & Export code</h4>
+              <h3 class="card-title headingColor my-3">₹1270/ <span class="h6" style='color:darkgray'>EXCL
+                  GST.</small></span> </h3>
+              <p class="card-text font-weight-light ">Apply for IEC registration online Now! And get the 10-digit IEC
+                code. Without IEC, primarily importers merchants cannot import products, and primarily exporters
+                merchants cannot receive benefits from DGFT.</p>
+              <div class="back_btn">
+                <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card  -->
+        <div class="col-3 mt-4">
+          <div class="card">
+            <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
+            <div class="card-body">
+              <h4 class="card-title ">MSME Registration</h4>
+              <h3 class="card-title headingColor my-3">₹1270/ <span class="h6" style='color:darkgray'>EXCL
+                  GST.</small></span> </h3>
+              <p class="card-text font-weight-light ">Registrations for manufacturing or service lines can be obtained
+                through the MSME act. This registration provides many benefits regarding taxation, setting up the
+                business, credit facilities, loans, etc.</p>
+              <div class="back_btn">
+                <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card  -->
       </div>
 
 
 
-      <div class="row">
-        <div class="div col-md-6">
-          <div class="abt_bxs">
-            <div class="bxs_cnt">
-              <div class="lft">
-                <img src="img/experience.png" alt="experience">
-                <h4>
-                  9+
-                </h4>
-                <p>
-                  Years of Experience in consultancy services
-                </p>
-              </div>
-              <div class="rgt">
-                <img src="img/reviews.png" alt="reviews">
-                <p>
-                  4.9/5
-                <p>
-                <p>
-                  Ratings on Google review
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="abt_bxs">
-            <div class="bxs_cnt">
-              <div class="lft">
-                <img src="img/legal-paper.png" alt="legal-paper">
-                <h4>
-                  CA, CS & Legal
-                </h4>
-                <p>
-                  Services at One Place
-                </p>
-              </div>
-              <div class="rgt">
-                <img src="img/user.png" alt="user">
-                <h4>
-                  All India Services
-                </h4>
-                <p>
-                  at Reasonable Price
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="div col-md-6">
-          <div class="abt_bxs">
-            <div class="bxs_cnt">
-              <div class="lft">
-                <img src="img/experience.png" alt="experience">
-                <h4>
-                  9+
-                </h4>
-                <p>
-                  Years of Experience in consultancy services
-                </p>
-              </div>
-              <div class="rgt">
-                <img src="img/reviews.png" alt="reviews">
-                <p>
-                  4.9/5
-                <p>
-                <p>
-                  Ratings on Google review
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="abt_bxs">
-            <div class="bxs_cnt">
-              <div class="lft">
-                <img src="img/legal-paper.png" alt="legal-paper">
-                <h4>
-                  CA, CS & Legal
-                </h4>
-                <p>
-                  Services at One Place
-                </p>
-              </div>
-              <div class="rgt">
-                <img src="img/user.png" alt="user">
-                <h4>
-                  All India Services
-                </h4>
-                <p>
-                  at Reasonable Price
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
 
@@ -584,14 +608,14 @@ require_once ('include/constant.php');
       <div class="container mt_cstm">
         <div class="row">
 
- 
+
 
           <div class="abt_contnt">
             <div class="container">
               <div class="row">
                 <div class="col-12 text-center mt-5 mb-3">
-                  <h1> Choose Our Best Plan
-                  </h1>
+                  <h1> Choose Our <span style='color:#FFC700'> Best </span> Plan</h1>
+                  <hr class='center-hr'>
 
                 </div>
               </div>
@@ -603,36 +627,38 @@ require_once ('include/constant.php');
                     <h6>T&C</h6>
                     <hr>
                     <ul>
-                      <li>Lorem</li>
-                      <li>Lorem</li>
-                      <li>Lorem</li>
-                      <li>Lorem</li>
-                      <li>Lorem</li>
+                      <li> ✅ GST Registration</li>
+                      <li> ✅ MSME Registration</li>
+                      <li> ✅ Current Account Opening - ICICI Bank</li>
                     </ul>
                     <hr>
                     <div class="back_btn">
-                      <a href="#"> <button>Read More</button></a>
+                      <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
                     </div>
                   </div>
                 </div>
 
-                 <!--   -->
-                 <div class="col-md-4 mb-5">
+                <!--   -->
+                <div class="col-md-4 mb-5">
                   <div class="price_box ">
-                    <h4>Proprietorship Registration</h4>
-                    <h3 class="card-title">₹2500/ <span class="h6" style='color:darkgray'>EXCL GST.</small></span> </h3>
+                    <h4>Incorporation of Private Limited Company</h4>
+                    <h3 class="card-title">₹ 29663/ <span class="h6" style='color:darkgray'>EXCL GST.</small></span>
+                    </h3>
                     <h6>T&C</h6>
                     <hr>
                     <ul>
-                      <li>Lorem</li>
-                      <li>Lorem</li>
-                      <li>Lorem</li>
-                      <li>Lorem</li>
-                      <li>Lorem</li>
+                      <li> ✅ DSC-2 Nos. (2yrs validity)</li>
+                      <li> ✅ Director Identification Number - 2 Nos.</li>
+                      <li> ✅ Name Approval for Company</li>
+                      <li> ✅ Incorporation of Pvt Ltd Company</li>
+                      <li> ✅ PAN & TAN for the Company</li>
+                      <li> ✅ Current Account Opening - ICICI Bank</li>
+
+
                     </ul>
-                    <hr>
+
                     <div class="back_btn">
-                      <a href="#"> <button>Read More</button></a>
+                      <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
                     </div>
                   </div>
                 </div>
@@ -644,15 +670,18 @@ require_once ('include/constant.php');
                     <h6>T&C</h6>
                     <hr>
                     <ul>
-                      <li>Lorem</li>
-                      <li>Lorem</li>
-                      <li>Lorem</li>
-                      <li>Lorem</li>
-                      <li>Lorem</li>
+                      <li> ✅ DSC-2 Nos. (2yrs validity)</li>
+                      <li> ✅ DPIN-2 Nos.</li>
+                      <li> ✅ Name Approval for LLP</li>
+                      <li> ✅ Incorporation of LLP</li>
+                      <li> ✅ PAN & TAN for the LLP</li>
+                      <li> ✅ Current Account Opening - ICICI Bank</li>
+                      <li> ✅ Preparation of LLP Agreement</li>
+                      <li> ✅ Form-3 Filing</li>
                     </ul>
-                    <hr>
+
                     <div class="back_btn">
-                      <a href="#"> <button>Read More</button></a>
+                      <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
                     </div>
                   </div>
                 </div>
@@ -669,6 +698,124 @@ require_once ('include/constant.php');
 
 
 
+    <!-- why choose  -->
+    <section class="why_chs_us">
+      <div class="container">
+
+
+
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="headingst">
+
+              <div class="col-6  mt-5 mb-3">
+                <h1> Why Choose <span style='color:#FFC700'> Legal Tax? </span></h1>
+                <hr class='hrr'>
+
+              </div>
+
+              <p>
+                Our primary focus is towards assisting the clients with navigating the legal and the regulatory
+                requirements that are related to business. With this purpose, our primary goal is to become the
+                â€œpartner of choiceâ€ for the assistance related to company registration and business management in
+                India.
+              </p>
+            </div>
+            <div class="why_img">
+              <img src="img/why_choose.png" alt="why_choose">
+            </div>
+          </div>
+          <div class="col-md-6">
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="wc_containr" style="border-top: 5px solid #ff0072;">
+                  <div class="wc_lft">
+                    <img src="img/price.svg" alt="price">
+                  </div>
+                  <div class="wc_rgt">
+                    <p>No Hidden Fees</p>
+                    <p>
+                      Everything is explained to you with no hidden charges or conditions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="wc_containr" style="border-top: 5px solid #0c95ff;">
+                  <div class="wc_lft">
+                    <img src="img/expert.svg" alt="expert">
+                  </div>
+                  <div class="wc_rgt">
+                    <p>Expert CA/CS/Advocate Assistance</p>
+                    <p>
+                      Prompt response from our in-house expert professionals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="wc_containr" style="border-top: 5px solid #056400;">
+                  <div class="wc_lft">
+                    <img src="img/support.svg" alt="support">
+                  </div>
+                  <div class="wc_rgt">
+                    <p>Guaranteed Satisfaction</p>
+                    <p>
+                      We make sure that you stay 100% satisfied with our offered services.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="wc_containr" style="border-top: 5px solid #00ff8a;">
+                  <div class="wc_lft">
+                    <img src="img/shield.png" alt="price">
+                  </div>
+                  <div class="wc_rgt">
+                    <p>Confidential & Safe</p>
+                    <p>
+                      All your private information is safe with us and no shared with anyone.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="wc_containr" style="border-top: 5px solid #83d7f9;">
+                  <div class="wc_lft">
+                    <img src="img/time.png" alt="price">
+                  </div>
+                  <div class="wc_rgt">
+                    <p>Ontime Services</p>
+                    <p>
+                      We try to provide our customer ontime services everytime.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="wc_containr" style="border-top: 5px solid #e9ff2f;">
+                  <div class="wc_lft">
+                    <img src="img/payment-method.png" alt="price">
+                  </div>
+                  <div class="wc_rgt">
+                    <p>Flexible Payments</p>
+                    <p>
+                      We provide our customers options to make payments flexibly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
     <!-- about  -->
     <div class="container mt_cstm">
       <div class="row">
@@ -676,12 +823,12 @@ require_once ('include/constant.php');
           <div class="abt_contnt">
             <div class="headingst">
 
-              <span>
-                About
-              </span>
-              <h1>
-                LegalTax : Legal Service, CA and CS - at very affordable cost
-              </h1>
+              <h1> About <span style='color:#FFC700'> LegalTax : </span></h1>
+              <hr class='hrr'>
+
+              <h4 class='thin'>
+                Legal Service, CA and CS - at very affordable cost
+              </h4>
             </div>
             <p>
               Legaltax.in is technology motivated platform establishing the specialized legal services, Financial & it
@@ -752,6 +899,8 @@ require_once ('include/constant.php');
         </div>
       </div>
     </div>
+
+
     <!-- Services We Offer -->
     <section>
       <div class="container">
@@ -1516,7 +1665,7 @@ require_once ('include/constant.php');
       </script>
 
     </section>
-
+    <!-- work with  -->
     <section>
       <div class="container-fluid" style="padding: 0px; margin: 0px;">
         <div class="who_we_wrk">
@@ -1524,12 +1673,8 @@ require_once ('include/constant.php');
             <div class="row">
               <div class="col-md-12">
                 <div class="headingst text-center">
-                  <span>
-                    Who We
-                  </span>
-                  <h4>
-                    Work With
-                  </h4>
+                  <h1> Who We <span style='color:#FFC700'> Work With </span></h1>
+                  <hr class='center-hr'>
                 </div>
               </div>
             </div>
@@ -1966,15 +2111,13 @@ require_once ('include/constant.php');
       </div>
     </section>
 
-
+  <!-- Industries  -->        
     <section>
-      <div class="headingst text-center mt_cstm" style="text-align: center;">
-        <span>
-          Industries
-        </span>
-        <h4>
-          We Serve
-        </h4>
+      <div class="headingst text-center mt_cstm my-5" style="text-align: center;">
+
+        <h1>  Industries <span style='color:#FFC700'>   We Serve </span></h1>
+        <hr class='center-hr'>
+   
       </div>
       <div class="container">
         <div class="row">
@@ -2472,17 +2615,18 @@ require_once ('include/constant.php');
         </div>
       </div>
     </section>
+
+
+    <!-- business  -->
     <section>
-      <div class="container">
+      <div class="container my-5">
         <div class="row">
           <div class="col-md-3">
             <div class="headingst mt_cstm">
-              <span>
-                Business Trusting
-              </span>
-              <h5>
-                Our Services
-              </h5>
+
+              <h1>  Business Trusting <span style='color:#FFC700'>     Our Services </span></h1>
+              <hr class='hrr'>
+          
             </div>
           </div>
           <div class="col-md-9">
@@ -2690,115 +2834,7 @@ require_once ('include/constant.php');
       </div>
       </div>
     </section>
-    <section class="why_chs_us">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-            <div class="headingst">
-              <span>
-                Why Choose
-              </span>
-              <h5>
-                LegalTax?
-              </h5>
-              <p>
-                Our primary focus is towards assisting the clients with navigating the legal and the regulatory
-                requirements that are related to business. With this purpose, our primary goal is to become the
-                â€œpartner of choiceâ€ for the assistance related to company registration and business management in
-                India.
-              </p>
-            </div>
-            <div class="why_img">
-              <img src="img/why_choose.png" alt="why_choose">
-            </div>
-          </div>
-          <div class="col-md-7">
 
-            <div class="row">
-              <div class="col-md-6">
-                <div class="wc_containr" style="border-top: 5px solid #ff0072;">
-                  <div class="wc_lft">
-                    <img src="img/price.svg" alt="price">
-                  </div>
-                  <div class="wc_rgt">
-                    <p>No Hidden Fees</p>
-                    <p>
-                      Everything is explained to you with no hidden charges or conditions.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="wc_containr" style="border-top: 5px solid #0c95ff;">
-                  <div class="wc_lft">
-                    <img src="img/expert.svg" alt="expert">
-                  </div>
-                  <div class="wc_rgt">
-                    <p>Expert CA/CS/Advocate Assistance</p>
-                    <p>
-                      Prompt response from our in-house expert professionals.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="wc_containr" style="border-top: 5px solid #056400;">
-                  <div class="wc_lft">
-                    <img src="img/support.svg" alt="support">
-                  </div>
-                  <div class="wc_rgt">
-                    <p>Guaranteed Satisfaction</p>
-                    <p>
-                      We make sure that you stay 100% satisfied with our offered services.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="wc_containr" style="border-top: 5px solid #00ff8a;">
-                  <div class="wc_lft">
-                    <img src="img/shield.png" alt="price">
-                  </div>
-                  <div class="wc_rgt">
-                    <p>Confidential & Safe</p>
-                    <p>
-                      All your private information is safe with us and no shared with anyone.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="wc_containr" style="border-top: 5px solid #83d7f9;">
-                  <div class="wc_lft">
-                    <img src="img/time.png" alt="price">
-                  </div>
-                  <div class="wc_rgt">
-                    <p>Ontime Services</p>
-                    <p>
-                      We try to provide our customer ontime services everytime.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="wc_containr" style="border-top: 5px solid #e9ff2f;">
-                  <div class="wc_lft">
-                    <img src="img/payment-method.png" alt="price">
-                  </div>
-                  <div class="wc_rgt">
-                    <p>Flexible Payments</p>
-                    <p>
-                      We provide our customers options to make payments flexibly.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
 
 
     <section>
@@ -2809,15 +2845,16 @@ require_once ('include/constant.php');
 
 
     <section>
-      <div class="container mt-5 mb-5">
+    <div class="container" style="margin: 5% 0 7% 10%;">
+
+
         <div class="row">
           <div class="headingst text-center">
-            <span>
-              We are
-            </span>
-            <h5>
-              associated with
-            </h5>
+
+
+        <h1>  We are <span style='color:#FFC700'>  associated with </span></h1>
+        <hr class='center-hr'>
+ 
           </div>
         </div>
         <div class="row icn_img">
@@ -2847,6 +2884,90 @@ require_once ('include/constant.php');
       include_once ("testimonials.php");
       ?>
     </section>
+
+
+
+
+
+    <!-- tags  -->
+    <div class="container">
+      <hr>
+      <div class=" ">
+
+        <h5>Registrationwala: Now commence your business activities in no time Registrationwala</h5>
+        <h5 class="mt-5"> Registrationwala</h5>
+        <p>Since 2016, Registrationwala has been a prominent all-legal solutions provider for businesses and
+          entrepreneurs looking for consultations with a lawyer or a chartered accountant or a company secretary. We
+          have been providing with a holistic assistance for our clients through the entire legal process for
+          registration, certification and/or license's procurement, in full compliance with the legal system of India.
+          Over the past few years, our quality of services, our connections with reliable legal professionals, our
+          affordability and customer satisfaction has made us one of the largest online facilitators of legal services
+          in India. We have already served over 50,000 customers and have a steadily growing network of over 10000
+          professionals from over 15 branches all over the country for our online platform.</p>
+
+
+        <h5 class="mt-5">Starting a Business.</h5>
+        <p>When one starts venturing into a new business or a startup, they are confused about what kind of business
+          entity to register, be it a Private Limited Company (PLC) or a Limited Liability Partnership (LLP), a
+          partnership firm, One Person Company (OPC) or a sole propnetorship. Each one of these types has very specific
+          features, rules for regulations and requirements for registration. In businesses, there is no one type for
+          all. Then, there will be an entire procedure for compilation of documents, filling for registration and post
+          registration assessment. As one can see, it gets really exhausting. Here we, Registrationwala come in handy to
+          you to guide you through the entire process of procurement of the legal document necessary for you to commence
+          your business activities. We assure you of great service at a reasonable price</p>
+
+        <h5 class="mt-5">Intellectual Property Rights</h5>
+        <p>Intellectual Property is a valuable asset of their company but in today's time, many startups end up
+          neglecting it. It is not advisable because trademarks, copyrights and patents ensure that you have sole rights
+          to your creation, be it your brand, your designs or your inventions. At Registrationwala, we are very well
+          equipped to handle all of your intellectual property rights (IPR) requirements. We can facilitate trademark
+          applications in just a few days, copyright registration for all your software, pictures, audio and video
+          content, and can connect you to patent attorneys to conduct a patent search and file your patent applications
+          and you can also find trademark availability.</p>
+
+
+        <h5 class="mt-5">RBI-regulating Financial Firms</h5>
+        <p>As the central bank of India, RBI regulates all the licensed banks and other financial institutions. It
+          issues licenses and certificates of registration whose rules and regulations must be followed by the
+          licensees. You can apply for a regulatory license as per your business model be it a banking firm, or a
+          non-banking financial firm, a peer-to-peer online money lending platform, money wallet transactions
+          platform, payment gateways, financial consultants and so on. Registrationwala provides you assistance in
+          procuring all kinds of licenses in a very time and cost-effective manner. All you need to do is
+          register at our website and we will get in touch with you</p>
+
+
+        <h5 class="mt-5">IRDAI-regulating Insurance Firms</h5>
+        <p>In India, you need a license for everything in business. Insurance Business is regulated by the Insurance
+          Regulatory and Development Authority of India (IRDAI) It is the law formulating entity of the government which
+          issues licenses in relations to all kinds of the insurance products and services, be it life insurance, health
+          insurance, medical, vehicle etc.. If you want to become a Web Aggregator for Insurance services, or an
+          Insurance Broker (intermediary between insurance companies and customers), a corporate agent, an Insurance
+          Marketing Firm, or a surveyor and loss assessor, you need to file for a license to get the legal affirmation
+          by IRDAI. We can help you to get the license of your choice by engaging you with our legal professionals,
+          understand your needs, file for the license application, accordingly, conduct follow-ups with the authority
+          and then finally deliver the license to you</p>
+
+        <h5 class="mt-5">Telecom</h5>
+        <p>India's telecom industry is surviving on innovation. India partakes in diverse telecom businesses, and those
+          enterprises require telecom licenses. And as the process of getting those licenses is tricky, you need the
+          best legal consultants for the job. The internet, false promises, and subpar services have not made it easy
+          for you to find consultants who are worth your time. Also, the regulations are difficult to understand if you
+          are a commoner with only a surface-level understanding of the license you seek. You need someone to interpret
+          them for you. Therefore, Registrationwala, provides you with the platform where you can find the experts who
+          can deliver the services you need.</p>
+
+
+
+
+
+      </div>
+      <hr>
+    </div>
+    </div>
+
+
+
+
 
     <!--<nav class="social">-->
     <!--  <ul>-->

@@ -3618,3 +3618,28 @@ a:hover>.ico {
 .listDecimal2 li{font-size: 17px;margin-bottom: 14px;}
 .listDecimal2 ::marker {color: #ffaa00 !important;font-weight: bold !important;}
 .listDecimal li{font-size: 17px;margin-bottom: 14px;}
+
+
+
+
+
+/* button radius  */
+.btnradius{
+  border-radius: 20px !important;
+}
+
+.headingColor{
+  color: #283461!important;
+}
+
+/* hr  */
+ .hrr {
+  border:3px solid #283461; 
+  width:18%;
+  margin-left: 0;
+ }
+ .center-hr {
+  border:3px solid #283461; 
+  width:18%;
+ 
+ }
