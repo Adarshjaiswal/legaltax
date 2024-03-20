@@ -6,26 +6,18 @@ require_once('include/constant.php');
 ?>
 <!doctype html>
 <html lang="en">
-
 <head>
-
   <title> Online Legal Consulting Services | Legal Tax </title>
   <meta name="description" content="Legal tax Provides Online Legal Consulting Services For Startups & SMEs in India. Get Free Legal Help For your business 24/7 Call: +91 9711939395.">
   <link rel="canonical" href="https://legaltax.in/" />
   <meta name="keyword" content="Legal Tax, GST Registration, FSSAI Registration, MSME Registration, Startup Business">
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <meta name="p:domain_verify" content="992cc6d01e3fe5c8d190327166179ee1" />
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.0/flexslider-min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-
-
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -62,9 +54,6 @@ require_once('include/constant.php');
     gtag('js', new Date());
     gtag('config', 'AW-10809622675');
   </script>
-
-
-
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="https://legaltax.in/">
   <meta property="og:type" content="website">
@@ -79,18 +68,11 @@ require_once('include/constant.php');
   <meta name="twitter:title" content="Legal & Tax Services for SMEs & Start-ups Online | legaltax.in">
   <meta name="twitter:description" content="Legal & Tax Services for Start-ups in India. Company Registration | GEM & Trademark Registration | Trademark Objection & Renewal Services at very economic cost.">
   <meta name="twitter:image" content="https://legaltax.in/img/legal tax online.jpg">
-
-
-
-
   <link rel="stylesheet" href="<?= $bootstrap_min; ?>">
   <link rel="stylesheet" href="<?= $my_css; ?>">
   <link rel="stylesheet" href="<?= $responsive_css; ?>">
   <script src="<?= $jquery_min; ?>"></script>
   <script src="<?= $boot_js; ?>"></script>
-
-
-
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -98,9 +80,7 @@ require_once('include/constant.php');
   <link rel="manifest" href="img/site.webmanifest">
   <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <link rel="stylesheet" href="css/style.css">
-
   <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
@@ -119,80 +99,16 @@ require_once('include/constant.php');
     })(window, document, 'script', 'dataLayer', 'GTM-KLNC84D');
   </script>
   <!-- End Google Tag Manager -->
-
   <meta name="facebook-domain-verification" content="tqk8s75ik8fozitl4m5a1qg0rzoub7" />
-
 </head>
-
-
-
 <body>
-
-
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLNC84D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-
-
   <main role="main">
     <?php
     include_once('header.php');
     ?>
-
-    <!-- slider -->
-    <!-- <div id="myCarousel" class="carousel slide hidd" data-ride="carousel" bis_skin_checked="1">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" bis_skin_checked="1">
-      <div class="carousel-item" bis_skin_checked="1">
-        <img src="img/banner1.webp" class="img-responsive" style="min-height: 200px;" />
-        <div class="container d-none" bis_skin_checked="1">
-          <div class="carousel-caption text-left" bis_skin_checked="1">
-            <h1>Example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item active" bis_skin_checked="1">
-        <img src="img/banner2.webp" class="img-responsive" style="min-height: 200px;" />
-        <div class="container d-none" bis_skin_checked="1">
-          <div class="carousel-caption" bis_skin_checked="1">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item" bis_skin_checked="1">
-        <img src="img/banner3.webp" class="img-responsive" style="min-height: 200px;" />
-        <div class="container d-none" bis_skin_checked="1">
-          <div class="carousel-caption text-right" bis_skin_checked="1">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div> -->
-    <!-- slider -->
-
-
-    <!-- count particles -->
-
-
     <!-- particles.js container -->
     <div id="particles-js" style="position: relative;" class="prticle_bnner">
       <div class="bannerHome">
@@ -391,38 +307,7 @@ require_once('include/constant.php');
         </div>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.0/jquery.flexslider-min.js"></script>
-    <script>
-      $('.flexslider').flexslider({
-        animation: "slide",
-        controlNav: false
-      });
-    </script>
-    <!-- scripts -->
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
-
-    <!-- stats.js -->
-    <script src="js/lib/stats.js"></script>
-    <script>
-      var count_particles, stats, update;
-      stats = new Stats;
-      stats.setMode(0);
-      stats.domElement.style.position = 'absolute';
-      stats.domElement.style.left = '0px';
-      stats.domElement.style.top = '0px';
-      document.body.appendChild(stats.domElement);
-      count_particles = document.querySelector('.js-count-particles');
-      update = function() {
-        stats.begin();
-        stats.end();
-        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-        }
-        requestAnimationFrame(update);
-      };
-      requestAnimationFrame(update);
-    </script>
+   
 
 
 
@@ -1567,94 +1452,7 @@ require_once('include/constant.php');
       </div>
 
 
-      <script>
-        function leagalServ() {
-          document.getElementById('leagalserv').style.display = "flex";
-          document.getElementById('leagalserv').style.flexDirection = "row";
-          document.getElementById('taxserv').style.display = "none";
-          document.getElementById('sldbtntax').style.display = "none";
-          document.getElementById('sldbtnlgl').style.display = "flex";
-        }
-
-        function taxServ() {
-          document.getElementById('leagalserv').style.display = "none";
-          document.getElementById('taxserv').style.display = "flex";
-          document.getElementById('taxserv').style.flexDirection = "row";
-          document.getElementById('taxserv').style.width = "100%";
-          document.getElementById('sldbtntax').style.display = "flex";
-          document.getElementById('sldbtnlgl').style.display = "none";
-        }
-      </script>
-
-      <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {
-            slideIndex = 1
-          }
-          if (n < 1) {
-            slideIndex = slides.length
-          }
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex - 1].style.display = "flex";
-          slides[slideIndex - 1].style.flexDirection = "row";
-          dots[slideIndex - 1].className += " active";
-        }
-      </script>
-
-
-
-      <script>
-        var slideIndex = 1;
-        showSlides2(slideIndex);
-
-        function plusSlidesl(n) {
-          showSlides2(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-          showSlides2(slideIndex = n);
-        }
-
-        function showSlides2(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides2");
-          var dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {
-            slideIndex = 1
-          }
-          if (n < 1) {
-            slideIndex = slides.length
-          }
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex - 1].style.display = "flex";
-          slides[slideIndex - 1].style.flexDirection = "row";
-          dots[slideIndex - 1].className += " active";
-        }
-      </script>
+    
 
     </section>
 
@@ -2850,7 +2648,126 @@ require_once('include/constant.php');
   include_once('footer.php');
   ?>
   <!-- footer -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.0/jquery.flexslider-min.js"></script>
+    <script>
+      $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: false
+      });
+    </script>
+    <!-- scripts -->
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
 
+    <!-- stats.js -->
+    <script src="js/lib/stats.js"></script>
+    <script>
+      var count_particles, stats, update;
+      stats = new Stats;
+      stats.setMode(0);
+      stats.domElement.style.position = 'absolute';
+      stats.domElement.style.left = '0px';
+      stats.domElement.style.top = '0px';
+      document.body.appendChild(stats.domElement);
+      count_particles = document.querySelector('.js-count-particles');
+      update = function() {
+        stats.begin();
+        stats.end();
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+      };
+      requestAnimationFrame(update);
+    </script>
+  <script>
+        function leagalServ() {
+          document.getElementById('leagalserv').style.display = "flex";
+          document.getElementById('leagalserv').style.flexDirection = "row";
+          document.getElementById('taxserv').style.display = "none";
+          document.getElementById('sldbtntax').style.display = "none";
+          document.getElementById('sldbtnlgl').style.display = "flex";
+        }
+
+        function taxServ() {
+          document.getElementById('leagalserv').style.display = "none";
+          document.getElementById('taxserv').style.display = "flex";
+          document.getElementById('taxserv').style.flexDirection = "row";
+          document.getElementById('taxserv').style.width = "100%";
+          document.getElementById('sldbtntax').style.display = "flex";
+          document.getElementById('sldbtnlgl').style.display = "none";
+        }
+      </script>
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {
+            slideIndex = 1
+          }
+          if (n < 1) {
+            slideIndex = slides.length
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "flex";
+          slides[slideIndex - 1].style.flexDirection = "row";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+
+
+
+      <script>
+        var slideIndex = 1;
+        showSlides2(slideIndex);
+
+        function plusSlidesl(n) {
+          showSlides2(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides2(slideIndex = n);
+        }
+
+        function showSlides2(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides2");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {
+            slideIndex = 1
+          }
+          if (n < 1) {
+            slideIndex = slides.length
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "flex";
+          slides[slideIndex - 1].style.flexDirection = "row";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
    
  
 
