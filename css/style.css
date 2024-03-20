@@ -3643,3 +3643,9 @@ a:hover>.ico {
   width:18%;
  
  }
+
+ /* tags color */
+ .tags{
+  color: gray;
+  font-weight: 300;
+ }
