@@ -403,14 +403,14 @@
                   <p><a href="tel:9999385617" style="color:#fff;">+91 9999385617</a></p>
                 </div>
               </li>
-              <li>
+              <!-- <li>
                 <div class="icon">
                   <i class="fa fa-envelope-o"></i>
                 </div>
                 <div class="cont">
                   <p><a href="mailto:info@rajstartup.com" class="#" style="color:#fff;">info@rajstartup.combbbbbbbb</a></p>
                 </div>
-              </li>
+              </li> -->
             </ul>
           </div> <!-- footer address -->
         </div>
@@ -453,7 +453,7 @@
     </div>
     <!-- footer top -->
 
-    <div class="container mt-5">
+    <!-- <div class="container mt-5">
       <div class="row">
         <div class="col-md-3">
           <div class="footer-new-menu">
@@ -499,7 +499,7 @@
 
 
       </div>
-    </div>
+    </div> -->
   </div>
 
   <div class="footer-copyright">
