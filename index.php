@@ -6,19 +6,27 @@ require_once ('include/constant.php');
 ?>
 <!doctype html>
 <html lang="en">
+
 <head>
+
   <title> Online Legal Consulting Services | Legal Tax </title>
   <meta name="description"
     content="Legal tax Provides Online Legal Consulting Services For Startups & SMEs in India. Get Free Legal Help For your business 24/7 Call: +91 9711939395.">
   <link rel="canonical" href="https://legaltax.in/" />
   <meta name="keyword" content="Legal Tax, GST Registration, FSSAI Registration, MSME Registration, Startup Business">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta name="p:domain_verify" content="992cc6d01e3fe5c8d190327166179ee1" />
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.0/flexslider-min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -43,9 +51,13 @@ require_once ('include/constant.php');
   ]
 }
 </script>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10809622675"></script>
   <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-10809622675'); </script>
+
+
+
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="https://legaltax.in/">
   <meta property="og:type" content="website">
@@ -62,11 +74,18 @@ require_once ('include/constant.php');
   <meta name="twitter:description"
     content="Legal & Tax Services for Start-ups in India. Company Registration | GEM & Trademark Registration | Trademark Objection & Renewal Services at very economic cost.">
   <meta name="twitter:image" content="https://legaltax.in/img/legal tax online.jpg">
+
+
+
+
   <link rel="stylesheet" href="<?= $bootstrap_min; ?>">
   <link rel="stylesheet" href="<?= $my_css; ?>">
   <link rel="stylesheet" href="<?= $responsive_css; ?>">
   <script src="<?= $jquery_min; ?>"></script>
   <script src="<?= $boot_js; ?>"></script>
+
+
+
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -74,7 +93,9 @@ require_once ('include/constant.php');
   <link rel="manifest" href="img/site.webmanifest">
   <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link rel="stylesheet" href="css/style.css">
+
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -85,17 +106,81 @@ require_once ('include/constant.php');
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-KLNC84D');</script>
   <!-- End Google Tag Manager -->
-   <!-- Google Tag Manager (noscript) -->
-   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLNC84D" height="0" width="0"
+
+  <meta name="facebook-domain-verification" content="tqk8s75ik8fozitl4m5a1qg0rzoub7" />
+
+</head>
+
+
+
+<body>
+
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLNC84D" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <meta name="facebook-domain-verification" content="tqk8s75ik8fozitl4m5a1qg0rzoub7" />
-</head>
-<body>
+
+
   <main role="main">
     <?php
     include_once ('header.php');
     ?>
+
+    <!-- slider -->
+    <!-- <div id="myCarousel" class="carousel slide hidd" data-ride="carousel" bis_skin_checked="1">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" bis_skin_checked="1">
+      <div class="carousel-item" bis_skin_checked="1">
+        <img src="img/banner1.webp" class="img-responsive" style="min-height: 200px;" />
+        <div class="container d-none" bis_skin_checked="1">
+          <div class="carousel-caption text-left" bis_skin_checked="1">
+            <h1>Example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active" bis_skin_checked="1">
+        <img src="img/banner2.webp" class="img-responsive" style="min-height: 200px;" />
+        <div class="container d-none" bis_skin_checked="1">
+          <div class="carousel-caption" bis_skin_checked="1">
+            <h1>Another example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" bis_skin_checked="1">
+        <img src="img/banner3.webp" class="img-responsive" style="min-height: 200px;" />
+        <div class="container d-none" bis_skin_checked="1">
+          <div class="carousel-caption text-right" bis_skin_checked="1">
+            <h1>One more for good measure.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div> -->
+    <!-- slider -->
+
+
+    <!-- count particles -->
+
+
     <!-- particles.js container -->
     <div id="particles-js" style="position: relative;" class="prticle_bnner">
       <div class="bannerHome">
@@ -106,6 +191,7 @@ require_once ('include/constant.php');
                 <div class="col-md-6">
                   <div class="meta">
                     <h2>Company Registration</h2>
+
                     <div class="category">
                       <ul>
                         <li>
@@ -144,12 +230,15 @@ require_once ('include/constant.php');
                   <img src="img/banner-3.png" alt="banner_3">
                 </div>
               </div>
+
             </li>
+
             <li>
               <div class="row">
                 <div class="col-md-6">
                   <div class="meta">
                     <h2>GST Registration</h2>
+
                     <div class="category">
                       <ul>
                         <li>
@@ -167,6 +256,7 @@ require_once ('include/constant.php');
                         <li>
                           GST Registration Certificate
                         </li>
+
                       </ul>
                     </div>
                     <div class="bt_enq">
@@ -188,12 +278,14 @@ require_once ('include/constant.php');
                 <div class="col-md-6">
                   <div class="meta">
                     <h3>Trademark Registration</h3>
+
                     <div class="category">
                       <p>
                         We conduct a thorough search of the TM directory and advice you on TM classes<br>
                         Our experts will collect and verify the necessary documents and file the required forms.<br>
                         You can start using the TM symbol as soon as the application is submitted and you will<br>
                         receive updates until registration is complete.
+
                       </p>
                     </div>
                     <div class="bt_enq">
@@ -215,6 +307,7 @@ require_once ('include/constant.php');
                 <div class="col-md-6">
                   <div class="meta">
                     <h3>Income tax Return </h3>
+
                     <div class="category">
                       <ul>
                         <li>
@@ -229,6 +322,7 @@ require_once ('include/constant.php');
                         <li>
                           Professional services in accounting procedures
                         </li>
+
                       </ul>
                     </div>
                     <div class="bt_enq">
@@ -250,6 +344,7 @@ require_once ('include/constant.php');
                 <div class="col-md-6">
                   <div class="meta">
                     <h3>Mutual Consent Divorce </h3>
+
                     <div class="category">
                       <ul>
                         <li>
@@ -278,6 +373,7 @@ require_once ('include/constant.php');
                   <img src="img/banner-5.png" alt="banner_5">
                 </div>
               </div>
+
             </li>
           </ul>
         </div>
@@ -322,6 +418,7 @@ require_once ('include/constant.php');
 
 
 
+    <!-- we provide  -->
     <div class="container mt_cstm">
 
       <div class="row">
@@ -348,6 +445,7 @@ require_once ('include/constant.php');
                   GST.</small></span> </h3>
               <p class="card-text font-weight-light ">Apply for New GST by online Registration with Kanakkupillai!
                 Without Visiting the Govt. office, get your GST Registered in India in just seven days.</p>
+
               <div class="back_btn">
                 <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
               </div>
@@ -387,6 +485,7 @@ require_once ('include/constant.php');
           </div>
         </div>
         <!-- card  -->
+
         <div class="col-3 ">
           <div class="card">
             <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
@@ -404,6 +503,7 @@ require_once ('include/constant.php');
           </div>
         </div>
         <!-- card  -->
+
         <div class="col-3 mt-4">
           <div class="card">
             <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
@@ -473,29 +573,10 @@ require_once ('include/constant.php');
         </div>
         <!-- card  -->
       </div>
+
+
+
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -507,12 +588,16 @@ require_once ('include/constant.php');
     <div>
       <div class="container mt_cstm">
         <div class="row">
+
+
+
           <div class="abt_contnt">
             <div class="container">
               <div class="row">
                 <div class="col-12 text-center mt-5 mb-3">
                   <h1> Choose Our <span style='color:#FFC700'> Best </span> Plan</h1>
                   <hr class='center-hr'>
+
                 </div>
               </div>
               <div class="row">
@@ -533,6 +618,7 @@ require_once ('include/constant.php');
                     </div>
                   </div>
                 </div>
+
                 <!--   -->
                 <div class="col-md-4 mb-5">
                   <div class="price_box ">
@@ -548,7 +634,10 @@ require_once ('include/constant.php');
                       <li> ✅ Incorporation of Pvt Ltd Company</li>
                       <li> ✅ PAN & TAN for the Company</li>
                       <li> ✅ Current Account Opening - ICICI Bank</li>
+
+
                     </ul>
+
                     <div class="back_btn">
                       <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
                     </div>
@@ -571,27 +660,43 @@ require_once ('include/constant.php');
                       <li> ✅ Preparation of LLP Agreement</li>
                       <li> ✅ Form-3 Filing</li>
                     </ul>
+
                     <div class="back_btn">
                       <a href="#" class='btnradius'> <button class='btnradius'>Read More</button></a>
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
+
           </div>
         </div>
+
+
       </div>
     </div>
+
+
+
     <!-- why choose  -->
     <section class="why_chs_us">
       <div class="container">
+
+
+
+
+
         <div class="row">
           <div class="col-md-6">
             <div class="headingst">
+
               <div class="col-6  mt-5 mb-3">
                 <h1> Why Choose <span style='color:#FFC700'> Legal Tax? </span></h1>
                 <hr class='hrr'>
+
               </div>
+
               <p>
                 Our primary focus is towards assisting the clients with navigating the legal and the regulatory
                 requirements that are related to business. With this purpose, our primary goal is to become the
@@ -604,6 +709,7 @@ require_once ('include/constant.php');
             </div>
           </div>
           <div class="col-md-6">
+
             <div class="row">
               <div class="col-md-6">
                 <div class="wc_containr" style="border-top: 5px solid #ff0072;">
@@ -685,17 +791,22 @@ require_once ('include/constant.php');
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
+
+
     <!-- about  -->
     <div class="container mt_cstm">
       <div class="row">
         <div class="div col-md-6">
           <div class="abt_contnt">
             <div class="headingst">
+
               <h1> About <span style='color:#FFC700'> LegalTax : </span></h1>
               <hr class='hrr'>
+
               <h4 class='thin'>
                 Legal Service, CA and CS - at very affordable cost
               </h4>
@@ -769,15 +880,15 @@ require_once ('include/constant.php');
         </div>
       </div>
     </div>
+
+
     <!-- Services We Offer -->
     <section>
       <div class="container">
         <div class="row">
           <div class="headingst text-center">
-            <span>
 
-            </span>
-            <h3>
+            <h1>
               Services We Offer
             </h1>
             <hr class='center-hr'>
@@ -807,10 +918,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/import-export-code-iec.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -824,10 +937,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/gst-registration.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -841,10 +956,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/trademark-registration.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -858,10 +975,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/startup-registration.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -875,10 +994,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/fssai-registration.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -892,11 +1013,13 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
         </div>
+
         <div class="row mySlides">
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/income-tax-return.php">
@@ -911,10 +1034,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/iso-certification.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -928,10 +1053,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/partnership-firm.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -945,10 +1072,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/shops-and-establishements-registration.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -962,10 +1091,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/ngo-trust-registration.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -979,10 +1110,14 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
+
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/msme-ssi-registration.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -996,6 +1131,7 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
@@ -1015,10 +1151,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/digital-signature-online-dsc.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -1032,10 +1170,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/gem-registration.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -1049,6 +1189,7 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
@@ -1070,10 +1211,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class="col-md-4 col-6">
             <a href="#">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -1087,10 +1230,12 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
           </div>
+
           <div class=" col-md-4  col-6">
             <a href="https://legaltax.in/mutual-consent-divorce.php">
               <div class="serv_card" style="border: 1px solid #ffd049; background-color: fbf9f6;">
@@ -1104,6 +1249,7 @@ require_once ('include/constant.php');
                   <p>
                     Consulation Starting from
                   </p>
+
                 </div>
               </div>
             </a>
@@ -1379,7 +1525,13 @@ require_once ('include/constant.php');
               </div>
             </a>
           </div>
+
+
+
+
+
         </div>
+
       </div>
       <div class="container">
         <div class="row">
@@ -1401,6 +1553,97 @@ require_once ('include/constant.php');
           </div>
         </div>
       </div>
+
+
+      <script>
+        function leagalServ() {
+          document.getElementById('leagalserv').style.display = "flex";
+          document.getElementById('leagalserv').style.flexDirection = "row";
+          document.getElementById('taxserv').style.display = "none";
+          document.getElementById('sldbtntax').style.display = "none";
+          document.getElementById('sldbtnlgl').style.display = "flex";
+        }
+
+        function taxServ() {
+          document.getElementById('leagalserv').style.display = "none";
+          document.getElementById('taxserv').style.display = "flex";
+          document.getElementById('taxserv').style.flexDirection = "row";
+          document.getElementById('taxserv').style.width = "100%";
+          document.getElementById('sldbtntax').style.display = "flex";
+          document.getElementById('sldbtnlgl').style.display = "none";
+        }
+      </script>
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {
+            slideIndex = 1
+          }
+          if (n < 1) {
+            slideIndex = slides.length
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "flex";
+          slides[slideIndex - 1].style.flexDirection = "row";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+
+
+
+      <script>
+        var slideIndex = 1;
+        showSlides2(slideIndex);
+
+        function plusSlidesl(n) {
+          showSlides2(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides2(slideIndex = n);
+        }
+
+        function showSlides2(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides2");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {
+            slideIndex = 1
+          }
+          if (n < 1) {
+            slideIndex = slides.length
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "flex";
+          slides[slideIndex - 1].style.flexDirection = "row";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+
     </section>
 
 
@@ -2573,22 +2816,27 @@ require_once ('include/constant.php');
       </div>
       </div>
     </section>
+
+
+
     <section>
       <?php
       include_once ('blog_section.php');
       ?>
     </section>
+
+
     <section>
-    <div class="container" style="margin: 5% 0 7% 10%;">
+      <div class="container" style="margin: 5% 0 7% 10%;">
 
 
         <div class="row">
           <div class="headingst text-center">
 
 
-        <h1>  We are <span style='color:#FFC700'>  associated with </span></h1>
-        <hr class='center-hr'>
- 
+            <h1> We are <span style='color:#FFC700'> associated with </span></h1>
+            <hr class='center-hr'>
+
           </div>
         </div>
         <div class="row icn_img">
@@ -2609,6 +2857,7 @@ require_once ('include/constant.php');
             <img src="img/zoho.png" alt="icici">
           </div>
           <div class="col-md-1 col-sm-1"> </div>
+
         </div>
       </div>
     </section>
@@ -2618,6 +2867,11 @@ require_once ('include/constant.php');
       include_once ("testimonials.php");
       ?>
     </section>
+
+
+
+
+
     <!-- tags  -->
     <div class="container">
       <hr>
@@ -2690,136 +2944,64 @@ require_once ('include/constant.php');
           are a commoner with only a surface-level understanding of the license you seek. You need someone to interpret
           them for you. Therefore, Registrationwala, provides you with the platform where you can find the experts who
           can deliver the services you need.</p>
+
+
+
+
+
       </div>
       <hr>
     </div>
     </div>
+
+
+
+
+
+    <!--<nav class="social">-->
+    <!--  <ul>-->
+    <!--    <li class="facebook"><a href="tel:+91 9711939395">Call Us<i class="fa fa-phone" aria-hidden="true"></i></a></li>-->
+    <!--    <li class="facebook"><a href="mailto:info@legaltax.in">Mail<i class="fa fa-envelope" aria-hidden="true"></i></a></li>-->
+    <!--    <li class="facebook"><a href="https://api.whatsapp.com/send?phone=919313454647&text=Contact%20Us%20on%20WhatsApp" target="_blank">Chat<i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>-->
+    <!--  </ul>-->
+    <!--</nav>-->
+
+
+
+
+
+
   </main>
+
   <!-- footer -->
   <?php
   include_once ('footer.php');
   ?>
   <!-- footer -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.0/jquery.flexslider-min.js"></script>
-    <script>
-      $('.flexslider').flexslider({
-        animation: "slide",
-        controlNav: false
-      });
-    </script>
-    <!-- scripts -->
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
-
-    <!-- stats.js -->
-    <script src="js/lib/stats.js"></script>
-    <script>
-      var count_particles, stats, update;
-      stats = new Stats;
-      stats.setMode(0);
-      stats.domElement.style.position = 'absolute';
-      stats.domElement.style.left = '0px';
-      stats.domElement.style.top = '0px';
-      document.body.appendChild(stats.domElement);
-      count_particles = document.querySelector('.js-count-particles');
-      update = function () {
-        stats.begin();
-        stats.end();
-        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-        }
-        requestAnimationFrame(update);
+  <!-- GetButton.io widget
+  <script type="text/javascript">
+    (function() {
+      var options = {
+        whatsapp: "+91 9711939395", // WhatsApp number
+        call_to_action: "Message us", // Call to action
+        position: "left", // Position may be 'right' or 'left'
       };
-      requestAnimationFrame(update);
-    </script>
-     <script>
-        function leagalServ() {
-          document.getElementById('leagalserv').style.display = "flex";
-          document.getElementById('leagalserv').style.flexDirection = "row";
-          document.getElementById('taxserv').style.display = "none";
-          document.getElementById('sldbtntax').style.display = "none";
-          document.getElementById('sldbtnlgl').style.display = "flex";
-        }
-
-        function taxServ() {
-          document.getElementById('leagalserv').style.display = "none";
-          document.getElementById('taxserv').style.display = "flex";
-          document.getElementById('taxserv').style.flexDirection = "row";
-          document.getElementById('taxserv').style.width = "100%";
-          document.getElementById('sldbtntax').style.display = "flex";
-          document.getElementById('sldbtnlgl').style.display = "none";
-        }
-      </script>
-
-      <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {
-            slideIndex = 1
-          }
-          if (n < 1) {
-            slideIndex = slides.length
-          }
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex - 1].style.display = "flex";
-          slides[slideIndex - 1].style.flexDirection = "row";
-          dots[slideIndex - 1].className += " active";
-        }
-      </script>
-
-
-
-      <script>
-        var slideIndex = 1;
-        showSlides2(slideIndex);
-
-        function plusSlidesl(n) {
-          showSlides2(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-          showSlides2(slideIndex = n);
-        }
-
-        function showSlides2(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides2");
-          var dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {
-            slideIndex = 1
-          }
-          if (n < 1) {
-            slideIndex = slides.length
-          }
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex - 1].style.display = "flex";
-          slides[slideIndex - 1].style.flexDirection = "row";
-          dots[slideIndex - 1].className += " active";
-        }
-      </script>
+      var proto = document.location.protocol,
+        host = "getbutton.io",
+        url = proto + "//static." + host;
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function() {
+        WhWidgetSendButton.init(host, proto, options);
+      };
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    })();
+  </script>
+   -->
+  <!-- /GetButton.io widget -->
 
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
@@ -2834,6 +3016,9 @@ require_once ('include/constant.php');
     })();
   </script>
   <!--End of Tawk.to Script-->
+
+
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
