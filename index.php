@@ -418,7 +418,9 @@ require_once ('include/constant.php');
 
 
 
+    <!-- we provide  -->
     <div class="container mt_cstm">
+
       <div class="row">
         <div class="div col-md-6">
           <div class="abt_contn">
@@ -433,6 +435,7 @@ require_once ('include/constant.php');
         </div>
       </div>
       <div class="row d-flex">
+        <!-- card  -->
         <div class="col-3">
           <div class="card">
             <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
@@ -581,28 +584,6 @@ require_once ('include/constant.php');
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- choose out best plan  -->
     <div>
       <div class="container mt_cstm">
@@ -642,7 +623,7 @@ require_once ('include/constant.php');
                 <div class="col-md-4 mb-5">
                   <div class="price_box ">
                     <h4>Incorporation of Private Limited Company</h4>
-                    <h3 class="card-title">₹ 29663/ <span class="h6" style='color:darkgray'>EXCL GST.</small></span>
+                    <h3 class="card-title">₹29663/ <span class="h6" style='color:darkgray'>EXCL GST.</small></span>
                     </h3>
                     <h6>T&C</h6>
                     <hr>
@@ -665,8 +646,8 @@ require_once ('include/constant.php');
                 <!--  -->
                 <div class="col-md-4 mb-5">
                   <div class="price_box ">
-                    <h4>Proprietorship Registration</h4>
-                    <h3 class="card-title">₹2500/ <span class="h6" style='color:darkgray'>EXCL GST.</small></span> </h3>
+                    <h4>Incorporation of Limited Liability Partnership</h4>
+                    <h3 class="card-title">₹9663/ <span class="h6" style='color:darkgray'>EXCL GST.</small></span> </h3>
                     <h6>T&C</h6>
                     <hr>
                     <ul>
@@ -906,12 +887,11 @@ require_once ('include/constant.php');
       <div class="container">
         <div class="row">
           <div class="headingst text-center">
-            <span>
 
-            </span>
-            <h3>
+            <h1>
               Services We Offer
-            </h3>
+            </h1>
+            <hr class='center-hr'>
           </div>
           <div class="togl_btns">
             <div class="left_togl" onclick="taxServ();">
@@ -1665,6 +1645,8 @@ require_once ('include/constant.php');
       </script>
 
     </section>
+
+
     <!-- work with  -->
     <section>
       <div class="container-fluid" style="padding: 0px; margin: 0px;">
@@ -2111,13 +2093,13 @@ require_once ('include/constant.php');
       </div>
     </section>
 
-  <!-- Industries  -->        
+    <!-- Industries  -->
     <section>
       <div class="headingst text-center mt_cstm my-5" style="text-align: center;">
 
-        <h1>  Industries <span style='color:#FFC700'>   We Serve </span></h1>
+        <h1> Industries <span style='color:#FFC700'> We Serve </span></h1>
         <hr class='center-hr'>
-   
+
       </div>
       <div class="container">
         <div class="row">
@@ -2624,9 +2606,9 @@ require_once ('include/constant.php');
           <div class="col-md-3">
             <div class="headingst mt_cstm">
 
-              <h1>  Business Trusting <span style='color:#FFC700'>     Our Services </span></h1>
+              <h1> Business Trusting <span style='color:#FFC700'> Our Services </span></h1>
               <hr class='hrr'>
-          
+
             </div>
           </div>
           <div class="col-md-9">
@@ -2845,16 +2827,16 @@ require_once ('include/constant.php');
 
 
     <section>
-    <div class="container" style="margin: 5% 0 7% 10%;">
+      <div class="container" style="margin: 5% 0 7% 10%;">
 
 
         <div class="row">
           <div class="headingst text-center">
 
 
-        <h1>  We are <span style='color:#FFC700'>  associated with </span></h1>
-        <hr class='center-hr'>
- 
+            <h1> We are <span style='color:#FFC700'> associated with </span></h1>
+            <hr class='center-hr'>
+
           </div>
         </div>
         <div class="row icn_img">
@@ -2879,6 +2861,7 @@ require_once ('include/constant.php');
         </div>
       </div>
     </section>
+
     <section>
       <?php
       include_once ("testimonials.php");
@@ -2892,11 +2875,12 @@ require_once ('include/constant.php');
     <!-- tags  -->
     <div class="container">
       <hr>
-      <div class=" ">
+      <div class="tags">
 
-        <h5>Registrationwala: Now commence your business activities in no time Registrationwala</h5>
+        <h5 class="tags">Registrationwala: Now commence your business activities in no time Registrationwala</h5>
         <h5 class="mt-5"> Registrationwala</h5>
-        <p>Since 2016, Registrationwala has been a prominent all-legal solutions provider for businesses and
+        <p class="tags">Since 2016, Registrationwala has been a prominent all-legal solutions provider for businesses
+          and
           entrepreneurs looking for consultations with a lawyer or a chartered accountant or a company secretary. We
           have been providing with a holistic assistance for our clients through the entire legal process for
           registration, certification and/or license's procurement, in full compliance with the legal system of India.
@@ -2907,7 +2891,8 @@ require_once ('include/constant.php');
 
 
         <h5 class="mt-5">Starting a Business.</h5>
-        <p>When one starts venturing into a new business or a startup, they are confused about what kind of business
+        <p class="tags">When one starts venturing into a new business or a startup, they are confused about what kind of
+          business
           entity to register, be it a Private Limited Company (PLC) or a Limited Liability Partnership (LLP), a
           partnership firm, One Person Company (OPC) or a sole propnetorship. Each one of these types has very specific
           features, rules for regulations and requirements for registration. In businesses, there is no one type for
@@ -2917,7 +2902,8 @@ require_once ('include/constant.php');
           your business activities. We assure you of great service at a reasonable price</p>
 
         <h5 class="mt-5">Intellectual Property Rights</h5>
-        <p>Intellectual Property is a valuable asset of their company but in today's time, many startups end up
+        <p class="tags">Intellectual Property is a valuable asset of their company but in today's time, many startups
+          end up
           neglecting it. It is not advisable because trademarks, copyrights and patents ensure that you have sole rights
           to your creation, be it your brand, your designs or your inventions. At Registrationwala, we are very well
           equipped to handle all of your intellectual property rights (IPR) requirements. We can facilitate trademark
@@ -2927,7 +2913,8 @@ require_once ('include/constant.php');
 
 
         <h5 class="mt-5">RBI-regulating Financial Firms</h5>
-        <p>As the central bank of India, RBI regulates all the licensed banks and other financial institutions. It
+        <p class="tags">As the central bank of India, RBI regulates all the licensed banks and other financial
+          institutions. It
           issues licenses and certificates of registration whose rules and regulations must be followed by the
           licensees. You can apply for a regulatory license as per your business model be it a banking firm, or a
           non-banking financial firm, a peer-to-peer online money lending platform, money wallet transactions
@@ -2937,7 +2924,8 @@ require_once ('include/constant.php');
 
 
         <h5 class="mt-5">IRDAI-regulating Insurance Firms</h5>
-        <p>In India, you need a license for everything in business. Insurance Business is regulated by the Insurance
+        <p class="tags">In India, you need a license for everything in business. Insurance Business is regulated by the
+          Insurance
           Regulatory and Development Authority of India (IRDAI) It is the law formulating entity of the government which
           issues licenses in relations to all kinds of the insurance products and services, be it life insurance, health
           insurance, medical, vehicle etc.. If you want to become a Web Aggregator for Insurance services, or an
@@ -2948,7 +2936,8 @@ require_once ('include/constant.php');
           and then finally deliver the license to you</p>
 
         <h5 class="mt-5">Telecom</h5>
-        <p>India's telecom industry is surviving on innovation. India partakes in diverse telecom businesses, and those
+        <p class="tags">India's telecom industry is surviving on innovation. India partakes in diverse telecom
+          businesses, and those
           enterprises require telecom licenses. And as the process of getting those licenses is tricky, you need the
           best legal consultants for the job. The internet, false promises, and subpar services have not made it easy
           for you to find consultants who are worth your time. Also, the regulations are difficult to understand if you
