@@ -333,7 +333,7 @@ require_once('include/constant.php');
       </div>
       <div class="row d-flex">
         <!-- card  -->
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
           <div class="card">
             <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
             <div class="card-body">
@@ -350,7 +350,7 @@ require_once('include/constant.php');
           </div>
         </div>
         <!-- card  -->
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
           <div class="card">
             <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
             <div class="card-body">
@@ -366,7 +366,7 @@ require_once('include/constant.php');
           </div>
         </div>
         <!-- card  -->
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
           <div class="card">
             <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
             <div class="card-body">
@@ -383,7 +383,7 @@ require_once('include/constant.php');
         </div>
         <!-- card  -->
 
-        <div class="col-3 ">
+        <div class="col-lg-3 mt-4 col-md-6 col-sm-12">
           <div class="card">
             <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
             <div class="card-body">
@@ -401,7 +401,7 @@ require_once('include/constant.php');
         </div>
         <!-- card  -->
 
-        <div class="col-3 mt-4">
+        <div class="col-lg-3 mt-4 col-md-6 col-sm-12">
           <div class="card">
             <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
             <div class="card-body">
@@ -418,7 +418,7 @@ require_once('include/constant.php');
           </div>
         </div>
         <!-- card  -->
-        <div class="col-3 mt-4">
+        <div class="col-lg-3 mt-4 col-md-6 col-sm-12">
           <div class="card">
             <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
             <div class="card-body">
@@ -435,7 +435,7 @@ require_once('include/constant.php');
           </div>
         </div>
         <!-- card  -->
-        <div class="col-3 mt-4">
+        <div class="col-lg-3 mt-4 col-md-6 col-sm-12">
           <div class="card">
             <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
             <div class="card-body">
@@ -452,7 +452,7 @@ require_once('include/constant.php');
           </div>
         </div>
         <!-- card  -->
-        <div class="col-3 mt-4">
+        <div class="col-lg-3 mt-4 col-md-6 col-sm-12">
           <div class="card">
             <img src="img/experience.png" alt="experience" class='w-25 px-3 mt-3'>
             <div class="card-body">
@@ -482,13 +482,12 @@ require_once('include/constant.php');
 
 
     <!-- choose out best plan  -->
-    <div>
-      <div class="container mt_cstm">
-        <div class="row">
+   
+   
 
 
-
-          <div class="abt_contnt">
+<section>
+        
             <div class="container">
               <div class="row">
                 <div class="col-12 text-center mt-5 mb-3">
@@ -566,13 +565,13 @@ require_once('include/constant.php');
 
               </div>
             </div>
+            </section>
+          
+        
 
-          </div>
-        </div>
 
-
-      </div>
-    </div>
+    
+   
 
 
 
@@ -2525,7 +2524,7 @@ require_once('include/constant.php');
 
 
     <section>
-      <div class="container" style="margin: 5% 0 7% 10%;">
+      <div class="container" >
 
 
         <div class="row">
@@ -2543,16 +2542,16 @@ require_once('include/constant.php');
             <img src="img/icici.png" alt="icici">
           </div>
           <div class="col-sm-2 col-xs-2">
-            <img src="img/paytm.png" alt="icici">
+            <img src="img/paytm.png" alt="paytm">
           </div>
           <div class="col-sm-2 col-xs-2">
-            <img src="img/google.png" alt="icici">
+            <img src="img/google.png" alt="google">
           </div>
           <div class="col-sm-2 col-xs-2">
-            <img src="img/instamojo.png" alt="icici">
+            <img src="img/instamojo.png" alt="instamojo">
           </div>
           <div class="col-sm-2 col-xs-2">
-            <img src="img/zoho.png" alt="icici">
+            <img src="img/zoho.png" alt="zoho">
           </div>
           <div class="col-md-1 col-sm-1"> </div>
 
