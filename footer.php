@@ -343,10 +343,10 @@
             </div>
             <p>Our Clients speak much more about our services as we always believe in good customer service & support. </p>
             <ul class="mt-20">
-              <li><a href="https://www.facebook.com/rajstartupcom/" target="blank"><i class="fa fa-facebook-f"></i></a></li>
-              <li><a href="https://twitter.com/raj_startup" target="blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.instagram.com/rajstartup/" target="blank"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="https://www.linkedin.com/company/raj-startup/" target="blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#" target="blank"><i class="fa fa-facebook-f"></i></a></li>
+              <li><a href="#" target="blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" target="blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#" target="blank"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div> <!-- footer about -->
         </div>
@@ -356,12 +356,12 @@
               <h6>Popular Services</h6>
             </div>
             <ul>
-              <li><a href="https://www.rajstartup.com/iso-certification.php"><i class="fa fa-angle-right"></i>ISO Certification</a></li>
-              <li><a href="https://www.rajstartup.com/trademark-registration.php"><i class="fa fa-angle-right"></i>Trademark Registration</a></li>
-              <li><a href="https://www.rajstartup.com/import-export-code.php"><i class="fa fa-angle-right"></i>Import Export Code</a></li>
-              <li><a href="https://www.rajstartup.com/apeda-registration.php"><i class="fa fa-angle-right"></i>Apeda Registration</a></li>
-              <li><a href="https://www.rajstartup.com/msme-registration.php"><i class="fa fa-angle-right"></i>MSME Registration</a></li>
-              <li><a href="https://www.rajstartup.com/startup-india-registration.php"><i class="fa fa-angle-right"></i> Startup India Registration</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i>ISO Certification</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i>Trademark Registration</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i>Import Export Code</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i>Apeda Registration</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i>MSME Registration</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Startup India Registration</a></li>
             </ul>
           </div> <!-- footer link -->
         </div>
@@ -371,12 +371,12 @@
               <h6>Terms & Policy</h6>
             </div>
             <ul>
-              <li><a href="https://www.rajstartup.com/terms-conditions.php"><i class="fa fa-angle-right"></i>Terms Conditions</a></li>
-              <li><a href="https://www.rajstartup.com/privacy-policy.php"><i class="fa fa-angle-right"></i>Privacy Policy</a></li>
-              <li><a href="https://www.rajstartup.com/refund-policy.php"><i class="fa fa-angle-right"></i>Refund Policy</a></li>
-              <li><a href="https://www.rajstartup.com/confidentiality-policy.php"><i class="fa fa-angle-right"></i>Confidentiality Policy</a></li>
-              <li><a href="https://www.rajstartup.com/career.php"><i class="fa fa-angle-right"></i>Career</a></li>
-              <li><a href="https://www.rajstartup.com/blogs.php"> <i class="fa fa-angle-right"></i>Blogs</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i>Terms Conditions</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i>Privacy Policy</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i>Refund Policy</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i>Confidentiality Policy</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i>Career</a></li>
+              <li><a href="#"> <i class="fa fa-angle-right"></i>Blogs</a></li>
             </ul>
           </div> <!-- support -->
         </div>
@@ -420,13 +420,13 @@
       <div class="row brnch_ofice">
         <h6>Our Branch Office</h6>
         <ul>
-          <a href="https://www.rajstartup.com/contact.php#loc_set_top"><i class="fa fa-map-marker"></i> VAPI</li>
-            <a href="https://www.rajstartup.com/contact.php#loc_set_top"><i class="fa fa-map-marker"></i> SILVASSA</li>
-              <a href="https://www.rajstartup.com/contact.php#loc_set_top"><i class="fa fa-map-marker"></i> SARIGAM</li>
-                <a href="https://www.rajstartup.com/contact.php#loc_set_top"><i class="fa fa-map-marker"></i> ODISHA</li>
-                  <a href="https://www.rajstartup.com/contact.php#loc_set_top"><i class="fa fa-map-marker"></i> New Delhi</li>
-                    <a href="https://www.rajstartup.com/contact.php#loc_set_top"><i class="fa fa-map-marker"></i> BHOPAL</li>
-                      <a href="https://www.rajstartup.com/contact.php#loc_set_top"><i class="fa fa-map-marker"></i> PUNE</li>
+          <a href="#"><i class="fa fa-map-marker"></i> VAPI</li>
+            <a href="#"><i class="fa fa-map-marker"></i> SILVASSA</li>
+              <a href="#"><i class="fa fa-map-marker"></i> SARIGAM</li>
+                <a href="#"><i class="fa fa-map-marker"></i> ODISHA</li>
+                  <a href="#"><i class="fa fa-map-marker"></i> New Delhi</li>
+                    <a href="#"><i class="fa fa-map-marker"></i> BHOPAL</li>
+                      <a href="#"><i class="fa fa-map-marker"></i> PUNE</li>
 
 
 
@@ -439,14 +439,14 @@
         <!-- row -->
 
         <div class="footer-payments col-md-12 col-lg-12 col-sm-12">
-         <center style="text-align: center;"> <img src="https://www.rajstartup.com/img/bank-partner.png" alt="#" /></center>
+         <center style="text-align: center;"> <img src="img/bank-partner.png" alt="#" /></center>
         </div>
        
         
       </div> <!-- row -->
       <div class="row">
       <div class="col-md-12 mt-4 mb-6">
-          <center style="color:#fff"><span style="color: #fff;">Recognized by Government Of India / Ministry of Commerce and Industry under <a href="https://www.rajstartup.com/images/DIPP46473_RAJINFOMATIC14_MEDIA_PRIVATE_LIMITED_Recognization.pdf" target="_blank"></span><img src="https://www.rajstartup.com/images/startup-india.png"></a></center>
+          <center style="color:#fff"><span style="color: #fff;">Recognized by Government Of India / Ministry of Commerce and Industry under <a href="#" target="_blank"></span><img src="img/startup-india.png"></a></center>
         </div>
 
       </div>
